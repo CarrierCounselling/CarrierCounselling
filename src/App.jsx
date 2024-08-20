@@ -23,7 +23,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route  path='/' element = {<Home />}/>
+          <Route  path='/prototype' element = {<Home />}/>
           <Route path='/mentor' element = {<JoinAsMentor />} />
           <Route path='/find' element = {<FindMentor />} />
           <Route path='/done' element = {<Payment />} />
